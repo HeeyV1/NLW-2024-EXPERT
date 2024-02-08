@@ -1,95 +1,96 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a finalidade do comando 'console.log()' em JavaScript?",
-      respostas: [
-        "Exibir uma mensagem de erro",
-        "Imprimir dados no console",
-        "Criar uma variável"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a função do operador '===' em comparações em JavaScript?",
-      respostas: [
-        "Comparação de valores sem considerar o tipo",
-        "Atribuição de valores",
-        "Comparação estrita de valores e tipos"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Como se declara uma variável em JavaScript?",
-      respostas: [
-        "let myVar;",
-        "const myVar = 10;",
-        "ambas as opções acima estão corretas"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é uma função em JavaScript?",
-      respostas: [
-        "Um tipo de dado",
-        "Um bloco de código reutilizável",
-        "Uma variável global"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a diferença entre 'let' e 'const' na declaração de variáveis?",
-      respostas: [
-        "Nenhuma, são sinônimos",
-        "let é usado para valores constantes, const para variáveis",
-        "let permite reatribuição, const cria variáveis imutáveis"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é o DOM em JavaScript?",
-      respostas: [
-        "Um método de criptografia",
-        "Um modelo de objeto para manipular documentos HTML",
-        "Uma linguagem de programação"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como se realiza uma iteração sobre os elementos de um array em JavaScript?",
-      respostas: [
-        "Usando a estrutura 'if-else'",
-        "Com a declaração 'switch'",
-        "Utilizando loops como 'for' ou 'forEach'"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é o JSON em JavaScript?",
-      respostas: [
-        "Um método de formatação de texto",
-        "Uma linguagem de estilização",
-        "Um formato de dados leve e intercambiável"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a diferença entre 'null' e 'undefined' em JavaScript?",
-      respostas: [
-        "São iguais, usados de forma intercambiável",
-        "'null' representa a ausência de valor, 'undefined' é atribuído explicitamente",
-        "Ambos representam valores vazios"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como se adiciona um evento a um elemento HTML usando JavaScript?",
-      respostas: [
-        "Apenas com CSS",
-        "Usando o atributo 'event'",
-        "Através do método 'addEventListener'"
-      ],
-      correta: 2
-    },
-  ];
+  {
+    pergunta: "Qual é o nome do mapa mais jogado em Valorant?",
+    respostas: [
+      "Sandstorm",
+      "Bind",
+      "Frostbite"
+    ],
+    correta: 1 // Resposta correta: "Bind"
+  },
+  {
+    pergunta: "Qual é o objetivo principal do modo de jogo 'Spike Rush' em Valorant?",
+    respostas: [
+      "Plantar a spike",
+      "Eliminar todos os inimigos",
+      "Coletar orbs"
+    ],
+    correta: 2 // Resposta correta: "Coletar orbs"
+  },
+  {
+    pergunta: "Qual é a arma padrão que todos os jogadores começam com em Valorant?",
+    respostas: [
+      "Vandal",
+      "Ghost",
+      "Classic"
+    ],
+    correta: 2 // Resposta correta: "Classic"
+  },
+  {
+    pergunta: "Qual personagem de Valorant é conhecido por suas habilidades de cura?",
+    respostas: [
+      "Brimstone",
+      "Sage",
+      "Jett"
+    ],
+    correta: 1 // Resposta correta: "Sage"
+  },
+  {
+    pergunta: "Qual é o nome da organização antiterrorista em Valorant?",
+    respostas: [
+      "Valorant Agents",
+      "Kingdom Corporation",
+      "Valorant Protocol"
+    ],
+    correta: 2 // Resposta correta: "Valorant Protocol"
+  },
+  {
+    pergunta: "Qual é o objetivo do modo de jogo 'Deathmatch' em Valorant?",
+    respostas: [
+      "Plantar a spike",
+      "Eliminar inimigos para ganhar pontos",
+      "Defender uma área específica"
+    ],
+    correta: 1 // Resposta correta: "Eliminar inimigos para ganhar pontos"
+  },
+  {
+    pergunta: "Qual é o limite de rodadas em uma partida competitiva de Valorant?",
+    respostas: [
+      "20",
+      "25",
+      "13"
+    ],
+    correta: 3 // Resposta correta: "13"
+  },
+  {
+    pergunta: "Qual é o nome do agente em Valorant que pode se teletransportar?",
+    respostas: [
+      "Omen",
+      "Cypher",
+      "Raze"
+    ],
+    correta: 0 // Resposta correta: "Omen"
+  },
+  {
+    pergunta: "Qual é o tipo de agente em Valorant que se especializa em habilidades de suporte?",
+    respostas: [
+      "Duelista",
+      "Iniciador",
+      "Controlador"
+    ],
+    correta: 2 // Resposta correta: "Controlador"
+  },
+  {
+    pergunta: "Qual é o nome do mapa em Valorant que apresenta uma ambientação desértica?",
+    respostas: [
+      "Split",
+      "Haven",
+      "Ascent"
+    ],
+    correta: 2 // Resposta correta: "Ascent"
+  }
+];
+
   
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
