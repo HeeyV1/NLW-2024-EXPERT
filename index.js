@@ -2,9 +2,9 @@ const perguntas = [
   {
     pergunta: "Qual é o nome do mapa mais jogado em Valorant?",
     respostas: [
-      "Sandstorm",
+      "Ascent",
       "Bind",
-      "Frostbite"
+      "Icebox"
     ],
     correta: 1 // Resposta correta: "Bind"
   },
@@ -15,10 +15,10 @@ const perguntas = [
       "Eliminar todos os inimigos",
       "Coletar orbs"
     ],
-    correta: 2 // Resposta correta: "Coletar orbs"
+    correta: 0 // Resposta correta: "Coletar orbs"
   },
   {
-    pergunta: "Qual é a arma padrão que todos os jogadores começam com em Valorant?",
+    pergunta: "Qual é a arma padrão que todos os jogadores começam?",
     respostas: [
       "Vandal",
       "Ghost",
@@ -84,7 +84,7 @@ const perguntas = [
     pergunta: "Qual é o nome do mapa em Valorant que apresenta uma ambientação desértica?",
     respostas: [
       "Split",
-      "Haven",
+      "Bind",
       "Ascent"
     ],
     correta: 2 // Resposta correta: "Ascent"
