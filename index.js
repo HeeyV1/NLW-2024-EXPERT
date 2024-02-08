@@ -58,7 +58,7 @@ const perguntas = [
     respostas: [
       "20",
       "25",
-      "13"
+      "13",
     ],
     correta: 2 // Resposta correta: "13"
   },
