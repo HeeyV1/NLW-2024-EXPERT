@@ -60,7 +60,7 @@ const perguntas = [
       "25",
       "13"
     ],
-    correta: 3 // Resposta correta: "13"
+    correta: 2 // Resposta correta: "13"
   },
   {
     pergunta: "Qual é o nome do agente em Valorant que pode se teletransportar?",
