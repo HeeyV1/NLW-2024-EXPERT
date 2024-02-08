@@ -87,7 +87,7 @@ const perguntas = [
       "Bind",
       "Ascent",
     ],
-    correta: 2 // Resposta correta: "Ascent"
+    correta: 1 // Resposta correta: "Ascent"
   }
 ];
 
