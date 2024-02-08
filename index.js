@@ -4,7 +4,7 @@ const perguntas = [
     respostas: [
       "Ascent",
       "Bind",
-      "Icebox"
+      "Icebox",
     ],
     correta: 1 // Resposta correta: "Bind"
   },
@@ -13,7 +13,7 @@ const perguntas = [
     respostas: [
       "Plantar a spike",
       "Eliminar todos os inimigos",
-      "Coletar orbs"
+      "Coletar orbs",
     ],
     correta: 0 // Resposta correta: "Coletar orbs"
   },
@@ -22,7 +22,7 @@ const perguntas = [
     respostas: [
       "Vandal",
       "Ghost",
-      "Classic"
+      "Classic",
     ],
     correta: 2 // Resposta correta: "Classic"
   },
@@ -31,7 +31,7 @@ const perguntas = [
     respostas: [
       "Brimstone",
       "Sage",
-      "Jett"
+      "Jett",
     ],
     correta: 1 // Resposta correta: "Sage"
   },
@@ -40,7 +40,7 @@ const perguntas = [
     respostas: [
       "Valorant Agents",
       "Kingdom Corporation",
-      "Valorant Protocol"
+      "Valorant Protocol",
     ],
     correta: 2 // Resposta correta: "Valorant Protocol"
   },
@@ -49,7 +49,7 @@ const perguntas = [
     respostas: [
       "Plantar a spike",
       "Eliminar inimigos para ganhar pontos",
-      "Defender uma área específica"
+      "Defender uma área específica",
     ],
     correta: 1 // Resposta correta: "Eliminar inimigos para ganhar pontos"
   },
@@ -67,7 +67,7 @@ const perguntas = [
     respostas: [
       "Omen",
       "Cypher",
-      "Raze"
+      "Raze",
     ],
     correta: 0 // Resposta correta: "Omen"
   },
@@ -76,7 +76,7 @@ const perguntas = [
     respostas: [
       "Duelista",
       "Iniciador",
-      "Controlador"
+      "Controlador",
     ],
     correta: 2 // Resposta correta: "Controlador"
   },
@@ -85,7 +85,7 @@ const perguntas = [
     respostas: [
       "Split",
       "Bind",
-      "Ascent"
+      "Ascent",
     ],
     correta: 2 // Resposta correta: "Ascent"
   }
